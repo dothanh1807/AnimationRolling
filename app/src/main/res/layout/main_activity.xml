@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@android:color/white">
+
+    <com.example.demoanimationrolling.ImageBall
+            android:id="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:rotation="180"
+            android:layout_width="400dp"
+            android:layout_height="400dp"/>
+
+    <TextView
+            android:id="@+id/x"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:textColor="@android:color/background_dark"
+            android:text="375"
+            android:textSize="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/background_dark"
+            android:text="恋愛中 恋"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/x"
+            android:layout_marginTop="220dp"
+            android:textColor="@android:color/darker_gray"
+            android:text="Pt"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btn"
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true"
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>
